@@ -1,0 +1,17 @@
+r=int(input('enter the number of test cases'))
+for p in range(r):
+    n=int(input('enter the array size')) 
+    l=list()
+
+    for j in range(n):
+    
+        d=int(input())
+        l.append(d)
+    print(l)
+    k=int(input('enter the k value'))
+    c=0
+    s=min(l)
+    for i in l:
+      if s<k:
+        c+=1
+    print(c)
